@@ -1,0 +1,35 @@
+https://github.com/UofM-PHYS30762/assignment-4-VadanKhan/releases/tag/potential_final
+
+## Build & run Instructions
+
+### Prerequisites
+
+You will need a C++ compiler that supports C++17. The code has been tested with GCC 11.
+
+### Compiling
+
+1. Open a terminal in the project directory.
+2. Compile the program using the following command:
+
+**For Windows** This command will produce the following file in the same directory you're running on:
+
+`g++ assignment-4.cpp -o assignment-4.exe -std=gnu++17`
+
+Which you can then execute in a terminal using:
+
+`./assignment-4.exe`
+
+
+**For Mac** This command will produce the following file in the same directory you're running on:
+
+`g++ assignment-4.cpp -o assignment-4.o -std=gnu++17`
+
+Which you can then execute in a terminal using:
+
+`./assignment-4.o`
+
+Note: One can also use make files to automate this compilation.
+**For Windows**: you can install MinGW's makefile.exe and then use 'nmake' command when in root directory
+Note this will expect the Makefile to be in root directory with name "Makefile"
+**For Mac**: Can just run `make`.
+Note this will expect the Makefile to be in root directory with name "Makefile"
